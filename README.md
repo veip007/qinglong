@@ -122,7 +122,7 @@ ql repo https://ghproxy.com/https://github.com/monk-coder/dust.git "i-chenzhe|no
 ql repo https://ghproxy.com/https://github.com/chinnkarahoi/jd_scripts.git "jd_|jx_|getJDCookie" "activity|backUp" "^jd[^_]|USER"  
 ```
 
-6.【更新whyour仓库】
+6.【更新whyour仓库】指令
 ```bash
 ql repo https://ghproxy.com/https://github.com/whyour/hundun.git "quanx" "tokens|caiyun|didi|donate|fold|Env"  
 ```
