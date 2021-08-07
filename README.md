@@ -116,13 +116,13 @@ docker run -dit \
 ```bash
 ql repo https://ghproxy.com/https://github.com/monk-coder/dust.git "i-chenzhe|normal|member|car" "backup"  
 ```
- 4.【更新lxk仓库】 
+ 5.【更新lxk仓库】 
   
 ```bash
 ql repo https://ghproxy.com/https://github.com/chinnkarahoi/jd_scripts.git "jd_|jx_|getJDCookie" "activity|backUp" "^jd[^_]|USER"  
 ```
 
-5.【更新whyour仓库】
+6.【更新whyour仓库】
 ```bash
 ql repo https://ghproxy.com/https://github.com/whyour/hundun.git "quanx" "tokens|caiyun|didi|donate|fold|Env"  
 ```
