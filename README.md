@@ -28,7 +28,7 @@ Python/JavaScript/Shell/Typescript 定时任务管理
   <img width="49%" src="https://qinglong.whyour.cn/login.png">
   <img width="49%" src="https://qinglong.whyour.cn/home.png">
 </p>
- ## 一、安装青龙主程序
+##  一、安装青龙主程序
 
 ### 1.拉取面板
 ```bash
