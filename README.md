@@ -38,7 +38,7 @@ docker pull whyour/qinglong:latest
 ```
 ### 2.创建容器
 ```bash
-docker run -dit \
+~docker run -dit \
   -v /ql/config:/ql/config \
   -v /ql/log:/ql/log \
   -v /ql/db:/ql/db \
@@ -52,8 +52,20 @@ docker run -dit \
   --name qinglong \
   --hostname qinglong \
   --restart unless-stopped \
-  whyour/qinglong:latest
+  whyour/qinglong:latest~
   ```
+  新版命令：
+  ```bash
+docker run -dit \
+-v $PWD/ql:/ql/data \
+-p 5700:5700 \
+--name qinglong \
+--hostname qinglong \
+--restart unless-stopped \
+whyour/qinglong:latest
+```
+  
+  
   记得放行5700和5701端口
   
   ### 3.登录青龙面板
