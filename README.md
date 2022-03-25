@@ -37,7 +37,6 @@ Python/JavaScript/Shell/Typescript 定时任务管理
 docker pull whyour/qinglong:latest
 ```
 ### 2.创建容器
-```bash
 ~docker run -dit \
   -v /ql/config:/ql/config \
   -v /ql/log:/ql/log \
@@ -53,7 +52,7 @@ docker pull whyour/qinglong:latest
   --hostname qinglong \
   --restart unless-stopped \
   whyour/qinglong:latest~
-  ```
+ 
   新版命令：
   ```bash
 docker run -dit \
